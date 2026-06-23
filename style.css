@@ -194,6 +194,25 @@ nav {
   color: var(--amber);
 }
 
+.btn-download {
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: var(--amber);
+  padding: 0.65rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.btn-download:hover {
+  background: rgba(245, 158, 11, 0.1);
+  border-color: var(--amber);
+}
+
 .hero-photo-wrap {
   position: relative;
   flex-shrink: 0;
