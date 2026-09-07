@@ -1,230 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Pavankumar V — Prompt Engineer</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pavankumar V — Prompt Engineer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<nav>
-  <div class="nav-logo">pavan.dev</div>
-  <div class="nav-links">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#education">Education</a>
-    <a href="#projects">Projects</a>
-  </div>
-  <div class="hamburger" id="hamburger">
-    <span></span><span></span><span></span>
-  </div>
-</nav>
+  <nav>
+    <div class="nav-logo">pavan.dev</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
 
-<div id="hero">
-  <div class="hero-inner">
-    <div class="hero-text">
-      <div class="hero-eyebrow">// Available for opportunities</div>
-      <h1 class="hero-name">Pavankumar <span>V</span></h1>
-      <div class="hero-title" id="typewriter"><span class="cursor"></span></div>
-      <p class="hero-desc">
-        Aspiring software engineer with a passion for building scalable solutions and leveraging AI tools to create impactful software. Currently pursuing MCA at VIT Vellore.
-      </p>
-      <div class="hero-ctas">
-        <a href="mailto:vpavankumar0201@gmail.com" class="btn-primary">Get in touch</a>
-        <a href="https://github.com/Pavan45187" target="_blank" class="btn-outline">GitHub →</a>
-        <a href="https://linkedin.com/in/pavankumar-v-0a84a3336" target="_blank" class="btn-outline">LinkedIn →</a>
-        <a href="public/resume.pdf" download="Pavankumar_V_Resume.pdf" class="btn-download">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Download Resume
-        </a>
-      </div>
-    </div>
-    <div class="hero-photo-wrap">
-      <img src="public/photo.jpg" alt="Pavankumar V" class="hero-photo" />
-      <div class="photo-accent"></div>
-    </div>
-  </div>
-</div>
-
-<section id="about">
-  <div class="sec-label">01 — About</div>
-  <h2 class="sec-title">Who I <span>am</span></h2>
-  <div class="divider"></div>
-  <div class="about-grid">
-    <div class="about-text">
-      <p>I'm a Master of Computer Applications student at VIT Vellore, driven by a deep interest in software engineering, AI-assisted development, and building things that actually solve problems.</p>
-      <p>My approach blends strong fundamentals in data structures and algorithms with hands-on experience in full-stack and IoT development. I enjoy working at the intersection of human needs and technical solutions.</p>
-      <p>When I'm not coding, I'm exploring how AI tools can accelerate the way developers build, debug, and ship software — which is what drew me to prompt engineering.</p>
-      <div class="contact-row">
-        <a class="contact-item" href="mailto:vpavankumar0201@gmail.com">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-          vpavankumar0201@gmail.com
-        </a>
-        <a class="contact-item" href="tel:9080363821">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.36 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          +91 9080363821
-        </a>
-        <a class="contact-item" href="https://github.com/Pavan45187" target="_blank">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          github.com/Pavan45187
-        </a>
-      </div>
-    </div>
-    <div class="about-stats">
-      <div class="stat-card">
-        <div class="num">8.9</div>
-        <div class="lbl">BCA CGPA</div>
-      </div>
-      <div class="stat-card">
-        <div class="num">8.6</div>
-        <div class="lbl">MCA CGPA</div>
-      </div>
-      <div class="stat-card">
-        <div class="num">4</div>
-        <div class="lbl">Projects Built</div>
-      </div>
-      <div class="stat-card">
-        <div class="num">VIT</div>
-        <div class="lbl">Vellore, India</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="skills">
-  <div class="sec-label">02 — Skills</div>
-  <h2 class="sec-title">Tech <span>Stack</span></h2>
-  <div class="divider"></div>
-  <div class="skills-grid">
-    <div class="skill-card">
-      <h3>Languages</h3>
-      <div class="skill-tags">
-        <span class="tag">C</span>
-        <span class="tag">C++</span>
-        <span class="tag">Java</span>
-        <span class="tag">Python</span>
-        <span class="tag">TypeScript</span>
-      </div>
-    </div>
-    <div class="skill-card">
-      <h3>Web Technologies</h3>
-      <div class="skill-tags">
-        <span class="tag">HTML</span>
-        <span class="tag">CSS</span>
-        <span class="tag">JavaScript</span>
-        <span class="tag">React</span>
-        <span class="tag">Node.js</span>
-        <span class="tag">Express</span>
-        <span class="tag">FastAPI</span>
-        <span class="tag">PHP</span>
-      </div>
-    </div>
-    <div class="skill-card">
-      <h3>Databases</h3>
-      <div class="skill-tags">
-        <span class="tag">MySQL</span>
-        <span class="tag">MongoDB</span>
-        <span class="tag">SQLite</span>
-      </div>
-    </div>
-    <div class="skill-card">
-      <h3>Tools & Concepts</h3>
-      <div class="skill-tags">
-        <span class="tag">Docker</span>
-        <span class="tag">REST APIs</span>
-        <span class="tag">JWT</span>
-        <span class="tag">Microservices</span>
-        <span class="tag">Gemini AI</span>
-        <span class="tag">SQLAlchemy</span>
-        <span class="tag">IoT</span>
-        <span class="tag">SDLC</span>
-        <span class="tag">AI-assisted dev</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="education">
-  <div class="sec-label">03 — Education</div>
-  <h2 class="sec-title">Academic <span>Journey</span></h2>
-  <div class="divider"></div>
-  <div class="edu-list">
-    <div class="edu-card">
-      <div>
-        <h3>Vellore Institute of Technology</h3>
-        <div class="degree">Master of Computer Applications (MCA)</div>
-        <div class="period">July 2025 – Present · Vellore, India</div>
-      </div>
-      <div class="cgpa">CGPA 8.60*</div>
-    </div>
-    <div class="edu-card">
-      <div>
-        <h3>Vellore Institute of Technology</h3>
-        <div class="degree">Bachelor of Computer Science</div>
-        <div class="period">July 2022 – May 2025 · Vellore, India</div>
-      </div>
-      <div class="cgpa">CGPA 8.90</div>
-    </div>
-  </div>
-</section>
-
-<section id="projects">
-  <div class="sec-label">04 — Projects</div>
-  <h2 class="sec-title">What I've <span>Built</span></h2>
-  <div class="divider"></div>
-  <div class="proj-list">
-    <div class="proj-card">
-      <div class="proj-subtitle">Full-Stack · Microservices Architecture</div>
-      <h3>HireLink Pro — Job Portal</h3>
-      <p>A full-featured job portal built on a microservices architecture with dedicated services for users, jobs, and applications. Implements REST APIs with JWT authentication and Axios-based inter-service communication, plus event-driven design and in-memory caching for performance.</p>
-      <div class="proj-bottom">
-        <div class="proj-tags">
-          <span class="tag">MongoDB</span><span class="tag">Express</span><span class="tag">React</span><span class="tag">Node</span><span class="tag">Docker</span>
+  <div id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-eyebrow">// Available for opportunities</div>
+        <h1 class="hero-name">Pavankumar <span>V</span></h1>
+        <div class="hero-title" id="typewriter"><span class="cursor"></span></div>
+        <p class="hero-desc">
+          Aspiring software engineer with a passion for building scalable solutions and leveraging AI tools to create
+          impactful software. Currently pursuing MCA at VIT Vellore.
+        </p>
+        <div class="hero-ctas">
+          <a href="mailto:vpavankumar0201@gmail.com" class="btn-primary">Get in touch</a>
+          <a href="https://github.com/Pavan45187" target="_blank" class="btn-outline">GitHub →</a>
+          <a href="https://linkedin.com/in/pavankumar-v-0a84a3336" target="_blank" class="btn-outline">LinkedIn →</a>
+          <a href="public/resume.pdf" download="Pavankumar_V_Resume.pdf" class="btn-download">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download Resume
+          </a>
         </div>
-        <a class="proj-link" href="https://github.com/Pavan45187/hirelink-pro" target="_blank">GitHub ↗</a>
+      </div>
+      <div class="hero-photo-wrap">
+        <img src="public/photo.jpg" alt="Pavankumar V" class="hero-photo" />
+        <div class="photo-accent"></div>
       </div>
     </div>
-    <div class="proj-card">
-      <div class="proj-subtitle">Full-Stack · AI & Speech Analysis</div>
-      <h3>MeetBrief AI — AI-Powered Meeting Summarizer</h3>
-      <p>Developed a full-stack application that converts meeting audio into transcripts, executive summaries, key decisions, and structured action items with owners and deadlines. Integrated Google Gemini AI with FastAPI REST APIs for audio transcription and intelligent meeting analysis, with hallucination-aware prompting to avoid generating unsupported information. Built a responsive React TypeScript frontend and SQLite/SQLAlchemy backend for audio upload, meeting management, processing, and persistent storage.</p>
-      <div class="proj-bottom">
-        <div class="proj-tags">
-          <span class="tag">React.js</span><span class="tag">TypeScript</span><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Gemini AI</span><span class="tag">SQLite</span><span class="tag">SQLAlchemy</span>
+  </div>
+
+  <section id="about">
+    <div class="sec-label">01 — About</div>
+    <h2 class="sec-title">Who I <span>am</span></h2>
+    <div class="divider"></div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm a Master of Computer Applications student at VIT Vellore, driven by a deep interest in software
+          engineering, AI-assisted development, and building things that actually solve problems.</p>
+        <p>My approach blends strong fundamentals in data structures and algorithms with hands-on experience in
+          full-stack and IoT development. I enjoy working at the intersection of human needs and technical solutions.
+        </p>
+        <p>When I'm not coding, I'm exploring how AI tools can accelerate the way developers build, debug, and ship
+          software — which is what drew me to prompt engineering.</p>
+        <div class="contact-row">
+          <a class="contact-item" href="mailto:vpavankumar0201@gmail.com">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            vpavankumar0201@gmail.com
+          </a>
+          <a class="contact-item" href="tel:9080363821">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.36 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            +91 9080363821
+          </a>
+          <a class="contact-item" href="https://github.com/Pavan45187" target="_blank">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            github.com/Pavan45187
+          </a>
         </div>
-        <a class="proj-link" href="https://github.com/Pavan45187/meetbrief-ai" target="_blank">GitHub ↗</a>
       </div>
-    </div>
-    <div class="proj-card">
-      <div class="proj-subtitle">Web App · Recommendation System</div>
-      <h3>Pandora — Skincare Product Recommender</h3>
-      <p>A web application that collects user inputs about their skin concerns and suggests suitable skincare products accordingly. Features a responsive frontend connected to a SQL database through server-side scripting, making personalized recommendations accessible to anyone.</p>
-      <div class="proj-bottom">
-        <div class="proj-tags">
-          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">MySQL</span>
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="num">8.9</div>
+          <div class="lbl">BSc CGPA</div>
         </div>
-        <a class="proj-link" href="https://github.com/Pavan45187/skin-care-ecommerce-website" target="_blank">GitHub ↗</a>
-      </div>
-    </div>
-    <div class="proj-card">
-      <div class="proj-subtitle">IoT · Embedded Systems · Safety Tech</div>
-      <h3>Railway Track Crack Detection System</h3>
-      <p>An IoT-based safety monitoring system that detects cracks in railway tracks using IR sensors and an Arduino Uno microcontroller. The system moves along the track autonomously with a motor mechanism, and sends real-time alerts to administrators via a GSM module when cracks are detected.</p>
-      <div class="proj-bottom">
-        <div class="proj-tags">
-          <span class="tag">Arduino</span><span class="tag">Embedded C</span><span class="tag">IR Sensor</span><span class="tag">GSM Module</span><span class="tag">IoT</span>
+        <div class="stat-card">
+          <div class="num">8.6</div>
+          <div class="lbl">MCA CGPA</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">4</div>
+          <div class="lbl">Projects Built</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">VIT</div>
+          <div class="lbl">Vellore, India</div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer>
-  <p>Designed & built by <span>Pavankumar V</span> · 2025</p>
-</footer>
+  <section id="skills">
+    <div class="sec-label">02 — Skills</div>
+    <h2 class="sec-title">Tech <span>Stack</span></h2>
+    <div class="divider"></div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Languages</h3>
+        <div class="skill-tags">
+          <span class="tag">C</span>
+          <span class="tag">C++</span>
+          <span class="tag">Java</span>
+          <span class="tag">Python</span>
+          <span class="tag">TypeScript</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Web Technologies</h3>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Express</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">PHP</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Databases</h3>
+        <div class="skill-tags">
+          <span class="tag">MySQL</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">SQLite</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Tools & Concepts</h3>
+        <div class="skill-tags">
+          <span class="tag">Docker</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">JWT</span>
+          <span class="tag">Microservices</span>
+          <span class="tag">Gemini AI</span>
+          <span class="tag">SQLAlchemy</span>
+          <span class="tag">IoT</span>
+          <span class="tag">SDLC</span>
+          <span class="tag">AI-assisted dev</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<script src="script.js"></script>
+  <section id="education">
+    <div class="sec-label">03 — Education</div>
+    <h2 class="sec-title">Academic <span>Journey</span></h2>
+    <div class="divider"></div>
+    <div class="edu-list">
+      <div class="edu-card">
+        <div>
+          <h3>Vellore Institute of Technology</h3>
+          <div class="degree">Master of Computer Applications (MCA)</div>
+          <div class="period">July 2025 – Present · Vellore, India</div>
+        </div>
+        <div class="cgpa">CGPA 8.60*</div>
+      </div>
+      <div class="edu-card">
+        <div>
+          <h3>Vellore Institute of Technology</h3>
+          <div class="degree">Bachelor of Computer Science</div>
+          <div class="period">July 2022 – May 2025 · Vellore, India</div>
+        </div>
+        <div class="cgpa">CGPA 8.90</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="sec-label">04 — Projects</div>
+    <h2 class="sec-title">What I've <span>Built</span></h2>
+    <div class="divider"></div>
+    <div class="proj-list">
+      <div class="proj-card">
+        <div class="proj-subtitle">Full-Stack · Microservices Architecture</div>
+        <h3>HireLink Pro — Job Portal</h3>
+        <p>A full-featured job portal built on a microservices architecture with dedicated services for users, jobs, and
+          applications. Implements REST APIs with JWT authentication and Axios-based inter-service communication, plus
+          event-driven design and in-memory caching for performance.</p>
+        <div class="proj-bottom">
+          <div class="proj-tags">
+            <span class="tag">MongoDB</span><span class="tag">Express</span><span class="tag">React</span><span
+              class="tag">Node</span><span class="tag">Docker</span>
+          </div>
+          <a class="proj-link" href="https://github.com/Pavan45187/hirelink-pro" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-subtitle">AI · AI & Speech Analysis</div>
+        <h3>MeetBrief AI — AI-Powered Meeting Summarizer</h3>
+        <p>Developed a full-stack application that converts meeting audio into transcripts, executive summaries, key
+          decisions, and structured action items with owners and deadlines. Integrated Google Gemini AI with FastAPI
+          REST APIs for audio transcription and intelligent meeting analysis, with hallucination-aware prompting to
+          avoid generating unsupported information. Built a responsive React TypeScript frontend and SQLite/SQLAlchemy
+          backend for audio upload, meeting management, processing, and persistent storage.</p>
+        <div class="proj-bottom">
+          <div class="proj-tags">
+            <span class="tag">React.js</span><span class="tag">TypeScript</span><span class="tag">Python</span><span
+              class="tag">FastAPI</span><span class="tag">Gemini AI</span><span class="tag">SQLite</span><span
+              class="tag">SQLAlchemy</span>
+          </div>
+          <a class="proj-link" href="https://github.com/Pavan45187/meetbrief-ai" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-subtitle">Web App · Recommendation System</div>
+        <h3>Pandora — Skincare Product Recommender</h3>
+        <p>A web application that collects user inputs about their skin concerns and suggests suitable skincare products
+          accordingly. Features a responsive frontend connected to a SQL database through server-side scripting, making
+          personalized recommendations accessible to anyone.</p>
+        <div class="proj-bottom">
+          <div class="proj-tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span
+              class="tag">PHP</span><span class="tag">MySQL</span>
+          </div>
+          <a class="proj-link" href="https://github.com/Pavan45187/skin-care-ecommerce-website" target="_blank">GitHub
+            ↗</a>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-subtitle">IoT · Embedded Systems · Safety Tech</div>
+        <h3>Railway Track Crack Detection System</h3>
+        <p>An IoT-based safety monitoring system that detects cracks in railway tracks using IR sensors and an Arduino
+          Uno microcontroller. The system moves along the track autonomously with a motor mechanism, and sends real-time
+          alerts to administrators via a GSM module when cracks are detected.</p>
+        <div class="proj-bottom">
+          <div class="proj-tags">
+            <span class="tag">Arduino</span><span class="tag">Embedded C</span><span class="tag">IR Sensor</span><span
+              class="tag">GSM Module</span><span class="tag">IoT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed & built by <span>Pavankumar V</span> · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
